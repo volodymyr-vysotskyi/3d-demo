@@ -1,0 +1,79 @@
+/* Elements with orange background */
+.theme-orange .landing-slider-block,
+.theme-orange .lSSlideOuter .lSPager.lSpg > li a {
+    background: #faddb9;
+}
+/* Main tabs active states */
+.theme-orange .main-tabs li.active {
+    background: #c73030;
+}
+.theme-orange .main-tabs li:last-child.active {
+    background: #ef8f16;
+}
+
+@media screen and (max-width: 600px) {
+    .theme-orange .landing-tabs .active {
+        background: none !important;
+    }
+    .theme-orange .landing-tabs .active a,
+    .theme-orange .landing-tabs li:last-child.active a {
+        color: #ef8f16;
+    }
+
+    .theme-orange .main-tabs li.active a {
+        color:#c73030;
+    }
+    .theme-orange .main-tabs li:last-child.active  a {
+        color:#ef8f16;
+    }
+}
+
+/* Elements with red font color */
+.theme-orange .landing-slider-block p,
+.theme-orange .address-item .cities,
+.theme-orange .qty-alt {
+    color: #c73030;
+}
+/* Elements with orange font color */
+.theme-orange .address-item .country,
+.theme-orange .qty-main {
+    color: #ef8f16;
+}
+
+/* Active state for slider pagination */
+.theme-orange .lSSlideOuter .lSPager.lSpg > li.active a {
+    background: #fff;
+}
+.landing-intouch--light-red {
+    background: #eb624e;
+    color:#fff;
+}
+
+/* buttons */
+.theme-orange .land-btn--orange {
+    border-color: #ef8f16;
+    color:#ef8f16;
+}
+.theme-orange .land-btn--orange:hover {
+    background: #ef8f16;
+    color:#fff;
+}
+.theme-orange .land-btn--white:hover {
+    color:#ef8f16;
+}
+
+.theme-orange .ico-arrow,
+.theme-orange .ico-arrow--white {
+    background-image: url("../images_orange/arrows.png");
+}
+
+.theme-orange .arrow-down--green {
+    background-image: url('../images_orange/arrows.png');
+}
+
+.theme-orange .video-slider .btn-play {
+    background-image: url('../images_orange/btn-play.png');
+}
+.theme-orange .ico-watch {
+    background-image: url('../images_orange/arrows.png');
+}

@@ -1,0 +1,18 @@
+input {
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 2;
+}
+.blog_view_header{
+    width: 100%;
+}
+body{
+    min-width: 1000px;
+}
+.blog_view_header {
+    width: 90%;
+    padding: 0 5%;
+}
+#navigation>li>div {
+    top: 25px;
+}

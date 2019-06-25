@@ -1,0 +1,17 @@
+#visual_banner_mid2, #visual_banner_mid4
+{
+    position: absolute;
+    top:113px;
+    width: 25px;
+    z-index: 100;
+}
+#visual_banner_mid2
+{
+    margin-left: 4px;
+    background: url(../images/left.png) no-repeat;
+}
+#visual_banner_mid4
+{
+    margin-left: 935px;
+    background: url(../images/right.png) no-repeat;
+}
